@@ -1,0 +1,18 @@
+/* 
+Para insertar varios documentos se utiliza 
+db.nombre_colección.insertMany() 
+*/
+
+use ("db_projectoH")
+
+
+db.hoteles.insertMany(
+    [
+
+    { nombreHotel: "El Remanso", dirección: "calle 87 # 74 - 12", descripción: "amplios espacios cuenta con piscina climatizada y jacussi", capacidad: 4 , cantidadHabitaciones: 4},
+    { nombreHotel: "El Descasito", dirección: "calle 47 # 78 - 122", descripción: "amplios espacios cuenta con jacussi", capacidad: 3 , cantidadHabitaciones: 4},
+    { nombreHotel: "La Casita", dirección: "carrera 57 # 73 - 50", descripción: "amplios espacios cuenta con piscina climatizada", capacidad: 5 , cantidadHabitaciones: 7},
+    
+]
+   
+)  

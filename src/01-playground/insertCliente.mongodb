@@ -1,0 +1,17 @@
+/* 
+Para insertar varios documentos se utiliza 
+db.nombre_colección.insertMany() 
+*/
+
+use ("db_projectoH")
+
+
+db.cliente.insertMany(
+    [
+
+    { correo: "arcij@gmail.com", telefono: 5123456790},
+    { correo: "omnu@gmail.com", telefono: 2345678903},
+    { correo: "aslod@gmail.com", telefono: 1034325678},
+    ]
+   
+) 

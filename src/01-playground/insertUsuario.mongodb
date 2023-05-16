@@ -1,0 +1,17 @@
+/* 
+Para insertar varios documentos se utiliza 
+db.nombre_colección.insertMany() 
+*/
+
+use ("db_projectoH")
+
+
+db.usuario.insertMany(
+    [
+
+    { tipoDoc: "Cedula Ciudadania", numDoc: 1234567890, nombre: "Alberto", apellido: "Manrique", fechaNac: "12/03/1980", contraseña: "serFelix1098"},
+    { tipoDoc: "Cedula Ciudadania", numDoc: 0987654321, nombre: "Luis", apellido: "Caicedo", fechaNac: "10/05/1985", contraseña: "akilskill"},
+    { tipoDoc: "Cedula Ciudadania", numDoc: 1029384756, nombre: "Raquel", apellido: "Pardo", fechaNac: "13/07/1990", contraseña: "patinpaton321"},
+ ]
+   
+) 
